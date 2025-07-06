@@ -1,0 +1,58 @@
+* {
+  font-family: "Comic Relief", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+ul > li {
+  list-style: none;
+}
+
+h2 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  line-height: 10px;
+  color: black;
+}
+
+p {
+  margin: 10px 0;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+main > .card {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px 10px rgb(228, 226, 226);
+  width: 365px;
+}
+
+main > .card > img {
+  width: auto;
+  height: 150px;
+  margin-top: -100px;
+  border: 1px solid rgb(228, 226, 226);
+  border-radius: 50%;
+  box-shadow: 0px -10px 20px 0px rgb(228, 226, 226);
+}
+
+a > img {
+  width: auto;
+  height: 20px;
+  margin-right: 5px;
+}
