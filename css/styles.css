@@ -28,6 +28,10 @@ a {
   color: black;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 p {
   margin: 10px 0;
   text-align: center;
